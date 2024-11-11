@@ -1,0 +1,104 @@
+/* Existing Login.css */
+
+/* Add full-page background and ensure it covers the entire page */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Full page background */
+.full-page-background {
+    background-image: url('D:/Documents/ying-ge.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Title outside the login container */
+.welcome-title {
+    font-size: 2.5rem;
+    font-weight: bold; /* Ensures the text is bold */
+    text-align: center;
+    color: rgb(20, 12, 12);
+    margin-top: 30px; /* Adjust based on your design */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Bold Comic Sans */
+}
+
+/* Styling for the login container */
+.login-container {
+    background: #ffffff; /* White background for the login box */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Login title styling */
+.login-title {
+    color: #4a90e2; /* Blue color */
+    margin-bottom: 20px;
+}
+
+/* Style for form inputs, buttons, and links */
+.login-container input, 
+.login-container button, 
+.login-container p {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+/* Styling for the error message */
+.login-container p.error {
+    color: #ff4d4d; /* Red color for error messages */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.login-container button {
+    background-color: #4a90e2; /* Blue color for the button */
+    color: rgb(29, 4, 4);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the login button */
+.login-container button:hover {
+    background-color: #357ab7;
+}
+
+/* Style for the links */
+.login-container a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the forgot password and register links */
+.login-container p {
+    margin-top: 10px;
+    color: #4a90e2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Add spacing for register and forgot password links */
+.login-container .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
